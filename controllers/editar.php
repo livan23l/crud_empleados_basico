@@ -2,7 +2,7 @@
 
 include("conexion.php");
 
-$id = $_POST['id'];
+$id = isset($_POST['id']) ? $_POST['id'] : "NA";;
 $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : "NA";
 $email = isset($_POST['email']) ? $_POST['email'] : "NA";
 $puesto = isset($_POST['puesto']) ? $_POST['puesto'] : "NA";
