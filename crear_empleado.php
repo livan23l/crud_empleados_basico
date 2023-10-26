@@ -9,7 +9,7 @@
 
 <body>
     <div>
-        <h1>CRUD->CREAR.</h1>
+        <h1>CRUD->CREATE.</h1>
         <h2>Barra de navegación</h2>
         <ul> <!-- Unordered list -->
             <li><a href="index.php">Index</a></li>
